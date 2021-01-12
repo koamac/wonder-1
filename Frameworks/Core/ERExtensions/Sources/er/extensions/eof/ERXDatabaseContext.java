@@ -84,6 +84,16 @@ public class ERXDatabaseContext extends EODatabaseContext {
 		super._followFetchSpecification(fetchSpec, relationshipName, sourceObjects, context);
 	}
 
+/*  *************************************** 
+ ==========================================================================
+ This breaks the use of ERAttachment Framework
+ The toOne optional relationship between the masterObject <--> erattachment (Object) 
+ Fails every time..!!!
+ 
+ [1-11-2021]
+ 
+ ===========================================================================
+ 
 	@Override
 	public void _verifyNoChangesToReadonlyEntity(EODatabaseOperation dbOp) {
 		EOEntity entity = dbOp.entity();
@@ -133,3 +143,6 @@ public class ERXDatabaseContext extends EODatabaseContext {
 		}
 	}
 }
+*/
+	
+	
